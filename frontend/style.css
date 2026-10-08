@@ -1,127 +1,24 @@
-/* =========================
-   ESTILOS GENERALES
-========================= */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f4e9;
-    color: #333;
-}
-
-/* =========================
-   HEADER
-========================= */
-
-header{
-    background-color: #8B4513;
-    color: white;
+h1 {
+    color: brown;
     text-align: center;
-    padding: 20px;
 }
-
-header img{
-    width: 90px;
-    margin-bottom: 10px;
+h2 {
+    color: darkgreen;
+    font-weight:bold ;
 }
-
-header h1{
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-nav a{
-    color: white;
-    text-decoration: none;
-    margin: 15px;
-    font-weight: bold;
-}
-
-nav a:hover{
-    color: #FFD700;
-}
-
-/* =========================
-   CONTENIDO PRINCIPAL
-========================= */
-
-main{
-    width: 90%;
-    max-width: 1200px;
-    margin: 40px auto;
-}
-
-/* =========================
-   SECCIONES
-========================= */
-
-section{
-    margin-bottom: 60px;
-}
-
-section h2{
-    text-align: center;
-    margin-bottom: 25px;
-    color: #8B4513;
-}
-
-/* =========================
-   IMAGEN PRINCIPAL
-========================= */
-
-section > figure{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-section > figure img{
-    width: 450px;
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-/* =========================
-   ARTÍCULOS
-========================= */
-
-article{
-    background-color: white;
-    width: 320px;
-    display: inline-block;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,.15);
-    text-align: center;
-    vertical-align: top;
-}
-
-article h3{
-    color: #8B4513;
-    margin-bottom: 15px;
-}
-
-article img{
-    width: 220px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-article p{
-    line-height: 1.6;
-}
-
-/* =========================
-   FIGCAPTION
-========================= */
-
-figcaption{
-    margin-top: 10px;
-    font-style: italic;
+p{
     color: gray;
+    font-size: 20px;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+header {
+    background-color: lightblue;
 }
