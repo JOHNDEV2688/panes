@@ -5,10 +5,12 @@ h1 {
 h2 {
     color: darkgreen;
     font-weight:bold ;
+    text-align: center;
 }
 p{
     color: gray;
     font-size: 20px;
+    text-align: center;
 }
 
 body {
@@ -16,9 +18,9 @@ body {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 header {
-    background-color: lightblue;
+    background-color: lightgray;
 }
