@@ -1,26 +1,26 @@
 h1 {
     color: brown;
     text-align: center;
-}
-h2 {
-    color: darkgreen;
-    font-weight:bold ;
-    text-align: center;
-}
-p{
-    color: gray;
-    font-size: 20px;
-    text-align: center;
+    font-size: 32px;
 }
 
 body {
-    background-color: lightyellow;
+    background-color: white;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: left;
 }
 
 h3 {
-    font-size: 30px;
-}
-
-header {
-    background-color: lightgray;
+    color: red;
+    font-size: 28px;
+    text-align: center;
 }
