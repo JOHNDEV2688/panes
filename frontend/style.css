@@ -15,10 +15,16 @@ body {
 }
 
 p {
-    color: blue;
+    color:brown;
     font-size: 18px;
     text-align: center;
+    border: 4px dashed grey;
+    margin-left: 45px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    margin-top: 45px;
 }
+
 
 h2 {
     color: green;
