@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+}
+.productos article{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    width: 250px;
+    background-color: lightyellow;
+
+}
+
+.productos h3{
+    text-align: center;
+    font-size: 24px;
+    color: brown;
+}
+
+.productos p{
+    text-align: center;
+    font-size: 16px;
+    color: darkslategray;
+}
+
+.productos img{
+    width: 80%;
+    max-width: 100%;
+}
+
+.productos figure{
+    text-align: center;
+}
+
+.productos article.destacado{
+    background-color: chocolate;
+    border: 5px dotted blue;
+
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.productos article.destacado p{
+    color: black;
+    
+}
+
+.productos{
+    gap: 30px;
+
+}

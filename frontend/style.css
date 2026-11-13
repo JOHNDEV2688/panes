@@ -44,6 +44,7 @@ h2 {
     padding-left: 25px;
     padding-right: 35px;
     margin-top: 10px;
+
     margin-bottom: 30px;
     margin-left: 40px;
     margin-right: 50px;
@@ -60,5 +61,14 @@ h3 {
     margin-left: 50px;
     margin-right: 20px;
     border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 100px;
+    width: 300px;
+    box-sizing: content-box;
+
     
 }
+
