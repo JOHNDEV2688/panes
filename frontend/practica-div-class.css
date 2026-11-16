@@ -1,13 +1,24 @@
 body {
     background-color: whitesmoke;
 }
-.productos article{
+
+.productos article {
     border: 2px solid black;
     padding: 20px;
     border-radius: 15px;
     margin: 15px;
     width: 250px;
+    box-sizing: content-box;
     background-color: lightyellow;
+}
+
+.productos img{
+    width: 80%;
+    max-width: 100%;
+}
+
+.productos figure{
+    text-align: center;
 
 }
 
@@ -23,33 +34,22 @@ body {
     color: darkslategray;
 }
 
-.productos img{
-    width: 80%;
-    max-width: 100%;
-}
-
-.productos figure{
-    text-align: center;
-}
-
 .productos article.destacado{
     background-color: chocolate;
     border: 5px dotted blue;
+}
 
+.productos article.destacado p{
+    color:black ;
 }
 
 .productos{
     display: flex;
     flex-direction: row;
-    align-items:center;
-    justify-content: center;
-}
-.productos article.destacado p{
-    color: black;
-    
+    justify-content:end;
+    align-items:end;
 }
 
 .productos{
-    gap: 30px;
-
+    gap: 20px 40px;
 }
